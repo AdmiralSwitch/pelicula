@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.0'
 # Using bower to manage front-end assets
 gem 'bower-rails'
 
+# Prepopulates the template cache, so angular doesn't need to request assets.
+gem 'angular-rails-templates'
+
 # Gems for Heroku deployment
 gem "foreman"
 group :production, :staging do
